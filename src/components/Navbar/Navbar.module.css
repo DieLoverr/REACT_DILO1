@@ -1,0 +1,27 @@
+.nav {
+    grid-area: n;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+
+}
+.item{
+    padding: 5px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+.item:nth-child(5){
+    padding-top: 30px;
+}
+/*.item:last-child{*/
+/*     padding-top: 150px;*/
+/* }*/
+.item a:hover{
+    color: gold;
+    /*text-decoration: underline;*/
+}
+
