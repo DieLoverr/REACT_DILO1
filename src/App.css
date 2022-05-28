@@ -8,6 +8,8 @@
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
 }
 .app-wrapper-content{
     background-color: cornflowerblue;

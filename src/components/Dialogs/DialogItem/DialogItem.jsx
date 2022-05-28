@@ -1,12 +1,14 @@
 import React from 'react';
-import s from './../Dialogs.module.css'
+import s from './DialogItem.module.css'
 import {NavLink} from "react-router-dom";
+
+const active = ({isActive}) => ({color: isActive ? 'gold' : ''});
 
 const DialogItem = (props) => {
     let path = "/dialogs/" + props.id;
 
-    return <div className={s.dialog + ' ' + s.active}>
-        <NavLink to={path}>{props.name}</NavLink>
+    return <div className={s.dialog}>
+        <NavLink to={path} style={active}>{props.name}</NavLink>
     </div>
 }
 

@@ -1,0 +1,12 @@
+.dialog a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.dialog a:hover{
+    color:gold;
+}
+.dialog {
+    padding-bottom: 5px;
+    border-right: snow solid 1px;
+}
